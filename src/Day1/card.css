@@ -1,0 +1,36 @@
+.main_card_div{
+    width: 200px;
+    height: 75vh;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px brown;
+  }
+  
+  .card_img{
+    width: 200px;
+  }
+  
+  .card_heading{
+    color: brown;
+    font-weight: bold;
+    
+  }
+  
+  .card_desc{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+   
+  }
+  
+  .card_btn{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 3px 20px 3px 20px;
+    
+  }
