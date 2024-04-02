@@ -15,7 +15,7 @@ function Test() {
 
             {myItems.map((value,index)=>(
                 <ul>
-                    <li>{value}</li>
+                    <li>{value} index:- {index}</li>
                 </ul>
             ))}
         </>
