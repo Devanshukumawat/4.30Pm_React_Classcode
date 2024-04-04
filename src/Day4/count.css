@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.count{
+    width: 100px;
+    height: 100px;
+
+}
+
+.count_btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+}

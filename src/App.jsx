@@ -1,10 +1,15 @@
 // import Boot from "./Day1/Boot";
-import Card from "./Day1/Card"
+// import Card from "./Day1/Card"
 // import Style from "./Day2/Style";
 // import Test from "./Day2/Test";
 // import Myprops from "./Day3/Myprops";
 // import Product from "./Day3/Product";
 // import Example from "./Day1/Example";
+
+// import Count from "./Day4/Count";
+// import Example from "./Day4/Example";
+// import State from "./Day4/State";
+import Form from "./Day5/Form";
 
 function App(){
 
@@ -73,10 +78,16 @@ function App(){
                 ))
             } */}
 
-            <Card name={"Devanshu"} desc={'Web developer'}/>
+            {/* <Card name={"Devanshu"} desc={'Web developer'}/>
             <Card name={"Himanshu"} desc={'Web developer'}/>
-            <Card name={"Manny"} desc={'Driver'}/>
+            <Card name={"Manny"} desc={'Driver'}/> */}
 
+            {/* <Example/> */}
+
+            {/* <State/> */}
+
+            {/* <Count/> */}
+            <Form/>
         </>
     )
 }
