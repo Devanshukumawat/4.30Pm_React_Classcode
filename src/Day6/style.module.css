@@ -1,0 +1,11 @@
+.main{
+    background-color: brown;
+    color: white;
+}
+
+.btn_main{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}

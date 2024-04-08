@@ -5,7 +5,7 @@ function Card(props){
     const {name,desc}  =props
     return(
         <>
-            <div className="main_card_div">
+            <div className="main">
                 <img src={Profile} alt="" className="card_img"/>
                 <h1 className="card_heading">{name}</h1>
                 <p className="card_desc">{desc}</p>
