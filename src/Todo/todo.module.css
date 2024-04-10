@@ -42,4 +42,35 @@
 .item{
     font-weight: bold;
     font-size: 20px;
+    width: 300px;
+}
+
+.delete_icon{
+    margin-left: 50px;
+    color: black;
+    cursor: pointer;
+    float: right;
+}
+
+.delete_icon:hover{
+    color: beige;
+}
+
+.edit_icon{
+    color: green;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.edit_icon:hover{
+    color: blue;
+}
+
+.totaltask{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }

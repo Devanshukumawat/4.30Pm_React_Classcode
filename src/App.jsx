@@ -11,6 +11,7 @@
 // import State from "./Day4/State";
 import Form from "./Day5/Form";
 import Style from "./Day6/Style";
+import Effect from "./Day7/Effect";
 import Todo from "./Todo/Todo";
 
 function App(){
@@ -94,6 +95,8 @@ function App(){
             {/* <Style/> */}
 
             <Todo/>
+
+            {/* <Effect/> */}
 
         </>
     )
