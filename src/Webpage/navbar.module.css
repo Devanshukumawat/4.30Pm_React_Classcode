@@ -1,0 +1,29 @@
+.navbar {
+    background-color: black;
+    color: white;
+    
+}
+
+.items{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+.items li{
+    margin: 20px;
+}
+
+.items li a{
+    color: white;
+    text-decoration: none;
+}
+
+.items li a:hover{
+    color: blue;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
