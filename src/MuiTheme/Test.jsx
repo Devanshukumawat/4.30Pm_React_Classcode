@@ -1,58 +1,58 @@
-// // import { Avatar, Box, Button, Fab, FormControlLabel, FormGroup, IconButton  } from "@mui/material";
-// // import AcUnitIcon from '@mui/icons-material/AcUnit';
-// // import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-// // import {AlarmAdd, AddShoppingCart, CheckBox, EditCalendar } from "@mui/icons-material"
-// // import Image from "../Day1/media/1691224446516 (1).jpeg"
+import { Avatar, Box, Button, Fab, FormControlLabel, FormGroup, IconButton  } from "@mui/material";
+import AcUnitIcon from '@mui/icons-material/AcUnit';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import {AlarmAdd, AddShoppingCart, CheckBox, EditCalendar } from "@mui/icons-material"
+import Image from "../Day1/media/1691224446516 (1).jpeg"
 
-// // function Test() {
+function Test() {
 
     
 
-// //   return (
-// //     <>
-// //       <h1>MUI Usages</h1>
-// //       <Button variant="outlined"
-// //       color="error"
-// //       startIcon={<AcUnitIcon/>}
-// //        >
-// //         Login
-// //       </Button>
-// //       <Button
-// //       variant="outlined"
-// //         onClick={() => {
-// //           alert("clicked");
-// //         }}
-// //         endIcon={<AlternateEmailIcon/>}
-// //       >
-// //         Click me
-// //       </Button>
-// //       <Box>
-// //       <AlarmAdd/>
-// //       </Box>
+  return (
+    <>
+      <h1>MUI Usages</h1>
+      <Button variant="outlined"
+      color="error"
+      startIcon={<AcUnitIcon/>}
+       >
+        Login
+      </Button>
+      <Button
+      variant="outlined"
+        onClick={() => {
+          alert("clicked");
+        }}
+        endIcon={<AlternateEmailIcon/>}
+      >
+        Click me
+      </Button>
+      <Box>
+      <AlarmAdd/>
+      </Box>
 
-// //       <IconButton color="info" >
-// //         <AlarmAdd/>
-// //       </IconButton>
+      <IconButton color="info" >
+        <AlarmAdd/>
+      </IconButton>
 
-// //       <div>
-// //         <h1>Helllo</h1>
-// //         <AddShoppingCart/>
-// //         <button>Hello</button>
+      <div>
+        <h1>Helllo</h1>
+        <AddShoppingCart/>
+        <button>Hello</button>
 
-// //       </div>
+      </div>
 
       
-// //         <FormGroup>
-// //         <FormControlLabel control={<CheckBox/>}/>
-// //         </FormGroup>
+        <FormGroup>
+        <FormControlLabel control={<CheckBox/>}/>
+        </FormGroup>
 
-// //         <Fab>
-// //             <EditCalendar/>
-// //         </Fab>
+        <Fab>
+            <EditCalendar/>
+        </Fab>
 
 
         
-// // <Avatar alt="" src={Image}/>
+<Avatar alt="" src={Image}/>
 
 
 
@@ -60,11 +60,11 @@
       
 
       
-// //     </>
-// //   );
-// // }
+    </>
+  );
+}
 
-// // export default Test;
+export default Test;
 
 
 
@@ -134,16 +134,16 @@
 
 
 
-// import * as React from 'react';
-// import Badge from '@mui/material/Badge';
-// import MailIcon from '@mui/icons-material/Mail';
+// // import * as React from 'react';
+// // import Badge from '@mui/material/Badge';
+// // import MailIcon from '@mui/icons-material/Mail';
 
-// export default function SimpleBadge() {
-//   return (
-//     <Badge badgeContent={4} color="primary">
-//       <MailIcon color="action" />
-//     </Badge>
-//   );
-// }
+// // export default function SimpleBadge() {
+// //   return (
+// //     <Badge badgeContent={4} color="primary">
+// //       <MailIcon color="action" />
+// //     </Badge>
+// //   );
+// // }
 
 
