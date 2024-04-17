@@ -4,7 +4,7 @@ import Style from "./Day2/Style";
 import Test from "./Day2/Test";
 import Myprops from "./Day3/Myprops";
 import Product from "./Day3/Product";
-import Example from "./Day1/Example";
+import Example from "./Day10/Example";
 
 import Customized from "./MuiTheme/Cart";
 import Navbar from "./MuiTheme/Navbar";
@@ -26,6 +26,8 @@ import {BrowserRouter , Routes , Route} from "react-router-dom"
 import SignInSide from "./MuiTheme/Copyright";
 import Error from "./MuiTheme/Error";
 import Mystyle from "./MuiTheme/Mystyle";
+import ChildA from "./Day10/ChildA";
+import ReducerHook from "./Reducer/ReducerHook";
 
 function App(){
 
@@ -73,6 +75,8 @@ function App(){
         {task:"Buy Car"},
         {task:"Buy Phone"}
     ]
+
+    let Data = "My name is khan"
 
 
     return(
@@ -137,9 +141,13 @@ function App(){
                     <Route path="/mui" element={<Mui/>}/>
                     <Route path="/copyright" element={<SignInSide/>}/>
                     <Route path="/error" element={<Error/>}/>
+                    <Route path="/example/:name" element={<Example/>}/>
                 </Routes>
             </BrowserRouter>
-            <Mystyle/>
+
+            {/* <ChildA name ={Data}/> */}
+
+            <ReducerHook/>
 
            
 

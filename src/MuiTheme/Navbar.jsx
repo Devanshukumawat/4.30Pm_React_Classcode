@@ -24,7 +24,8 @@ const navItems = [
     {name:"About",url:"/aboutpage"},
     {name:"Todo",url:"/todo"},
     {name:"Form",url:"/form"},
-    {name:"Login",url:"/copyright"}
+    {name:"Login",url:"/copyright"},
+    {name:"Id",url:"/example"}
 ];
 
 function Navbar(props) {
