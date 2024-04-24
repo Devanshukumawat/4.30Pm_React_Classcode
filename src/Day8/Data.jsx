@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 
 function Data() {
 
+     useState([])
+
     const [count,setCount] = useState(1)
     const [title,setTitle] = useState("")
     const [price,setPrice] = useState("")

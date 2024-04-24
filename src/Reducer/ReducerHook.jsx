@@ -2,6 +2,8 @@ import { useReducer } from "react";
 
 function ReducerHook() {
 
+    console.log("Reducer Comp...")
+
     const initialState = {
         count:0,
         name:"Manny"
